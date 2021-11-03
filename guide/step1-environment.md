@@ -43,6 +43,6 @@
 
 ## Ddev
 - https://ddev.readthedocs.io/en/stable/
+- $ brew tap drud/ddev
 - $ brew install ddev
 - $ ddev version
-
