@@ -27,8 +27,8 @@ $ ddev describe
 ```
 
 ## 4. Activate project via browser window
-- Open browser window: https://mysite.ddev.site/typo3/install.php
 - touch public/FIRST_INSTALL
+- Open browser window: https://mysite.ddev.site/typo3/install.php
 - Take me straight to the backend (no empty starting page)
 - Login to backend
 
