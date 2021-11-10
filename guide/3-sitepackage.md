@@ -71,4 +71,11 @@ $ ls -l public/typo3conf/ext
 - Open homepage: https://mysite.ddev.site/
 - Create more pages under "Home"
 
+## Next steps
+
+This project ends here. For further development see other project: 
+- https://github.com/nvsx/t3website1
+
+"t3website1" will be based on the code of this project. 
+
 ***

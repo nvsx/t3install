@@ -1,15 +1,18 @@
 # t3install
 
-Setting up TYPO3
+*Setting up TYPO3*
 
-## List of contents
+This repo contains the source code and a list of steps under "guide". 
+
+## List of guides
 
 1. Setting up the environment
-	- steps/1-environment.md
+	- guide/1-environment.md
 
 2. Setup: Install TYPO3
-	- steps/2-setup.md
+	- guide/2-setup.md
 
 3. Create a website
-	- steps/3-sitepackage.md
+	- guide/3-sitepackage.md
 
+***
