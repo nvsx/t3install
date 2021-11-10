@@ -10,12 +10,16 @@ There are multiple ways to set up a sitepackage, e.g.
 
 We apply third solution. The "t3sitepackage" is a sitepackage created by Sitepackagebuilder (2.). But it also provides a composer snippet we will use to modify the composer.json file. 
 
+## Get the sitepackage code
+
 ```sh
 $ git clone https://github.com/nvsx/t3sitepackage1.git
 $ mkdir ext
 $ mv t3sitepackage1/sitepackage ext
 $ cat t3sitepackage1/composer-snippet.txt
 ```
+
+## Give Composer the info about where to find the sitepackage
 
 Include these four lines of code at the beginning of composer.json. 
 Composer.json then looks like so:
@@ -46,10 +50,14 @@ $ # there even exists no "ext" directory yet
 $ ls -l public/typo3conf
 ```
 
-Now get Composer up to date and install the sitepackage:
+## Install sitepackage
+
+Now we need to get Composer up to date and install the sitepackage. 
+(This might be a tricky one. We use "dev-master" here, because we are in the master branch of our repository. It might depend on your actual environment.)
+
 ```sh
 $ ddev composer update
-$ ddev composer install snakeoil/sitepackage
+$ ddev composer install snakeoil/sitepackage:dev-master
 $ # now take a look at what we have in our extension folder:
 $ ls -l public/typo3conf/ext
 ```
