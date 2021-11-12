@@ -57,7 +57,7 @@ Now we need to get Composer up to date and install the sitepackage.
 
 ```sh
 $ ddev composer update
-$ ddev composer install snakeoil/sitepackage:dev-master
+$ ddev composer require snakeoil/sitepackage:dev-main
 $ # now take a look at what we have in our extension folder:
 $ ls -l public/typo3conf/ext
 ```
