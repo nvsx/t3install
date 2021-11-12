@@ -61,6 +61,8 @@ $ ddev composer require snakeoil/sitepackage:dev-main
 $ # now take a look at what we have in our extension folder:
 $ ls -l public/typo3conf/ext
 ```
+The sitepackage extension is now installed. It is just a link to our code in ext/sitpackage. 
+We now can work on our sitepackage and develop our website. 
 
 ### Work in browser
 
