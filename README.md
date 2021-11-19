@@ -1,6 +1,6 @@
 # t3install
 
-*Installation and setup of TYPO3.*
+*Documentation for installation and setup of TYPO3.*
 
 ## List of versions used
 
