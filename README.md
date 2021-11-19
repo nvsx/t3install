@@ -26,5 +26,9 @@ This repo contains the source code and a list of steps under "guide".
 3. Create a website
 	- guide/3-sitepackage.md
 
+## Sourcecode
+
+- find it in https://github.com/nvsx/t3website1
+
 ***
 
