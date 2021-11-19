@@ -1,9 +1,18 @@
 # t3install
 
-*Installation and setup of TYPO3 v11. Last modified 2021.*
+*Installation and setup of TYPO3.*
 
+## List of versions used
 
+- last modified 2021
+- TYPO3 v11
+- PHP v8.0.12
+- Docker v20.10.8
+- Ddev v1.18.0
 
+## How to use this repo
+
+It is a documentation of all steps to setup a TYPO3 site.
 This repo contains the source code and a list of steps under "guide". 
 
 ## List of guides
@@ -18,3 +27,4 @@ This repo contains the source code and a list of steps under "guide".
 	- guide/3-sitepackage.md
 
 ***
+
