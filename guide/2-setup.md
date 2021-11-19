@@ -6,7 +6,7 @@
 - DDev
 - PHP
 - Composer
-- see steps/1-environment.md
+- (see 1-environment.md)
 
 ---
 
@@ -32,10 +32,16 @@ $ ddev describe
 - Take me straight to the backend (no empty starting page)
 - Login to backend
 
+## 5. Git Configuration
+
+If you are working with Git, then adjust the following file created by Ddev. Otherwise your installation will not work when depoyed on a remote Server: ```public/typo3conf/.gitignore```
+
+Remove the line with "AdditionalConfiguartion.php", because this file is needed on the server. Also depending on the version of Ddev remove all lines but ```# You can remove the above line if you want to edit and maintain this file yourself.```, because we do not want Ddev to hide any files. 
+
 --- 
 
 ## Result
 
-We have a working TYPO3-Installation. But only the backend can be used. There is no configuration for the frontend yet. See next step how to install a sitepackage and create pages. 
+We now have a working TYPO3-Installation. But only the backend can be used. There is no configuration for the frontend yet. See next step on how to install a sitepackage and create pages. 
 
 ***
