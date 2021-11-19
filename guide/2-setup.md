@@ -12,12 +12,12 @@
 
 ## 1. Configure project directory
 ```sh
-$ ddev config --project-type typo3 --project-name mysite --docroot public --create-docroot
+$ ddev config --project-type typo3 --project-name t3install --docroot public --create-docroot
 ```
 
 ## 2. Install TYPO3
 ```
-$ ddev composer create typo3/cms-base-distribution
+$ # ddev composer create typo3/cms-base-distribution
 ```
 
 ## 3. Start Ddev
@@ -28,7 +28,7 @@ $ ddev describe
 
 ## 4. Activate project via browser window
 - touch public/FIRST_INSTALL
-- Open browser window: https://mysite.ddev.site/typo3/install.php
+- Open browser window: https://t3install.ddev.site/typo3/install.php
 - Take me straight to the backend (no empty starting page)
 - Login to backend
 
