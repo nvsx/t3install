@@ -1,6 +1,8 @@
 # t3install
 
-*Setting up TYPO3*
+*Installation and setup of TYPO3 v11. Last modified 2021.*
+
+
 
 This repo contains the source code and a list of steps under "guide". 
 
