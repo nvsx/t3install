@@ -1,6 +1,6 @@
 # Sitepackage
 
-*The sitepackage is respnsible for our website.*
+*The sitepackage is respnosible for our website.*
 
 There are multiple ways to set up a sitepackage, e.g. 
 
@@ -8,7 +8,9 @@ There are multiple ways to set up a sitepackage, e.g.
 2. Use https://sitepackagebuilder.com/
 3. Use https://github.com/nvsx/t3sitepackage1
 
-We apply third solution. The "t3sitepackage" is a sitepackage created by Sitepackagebuilder (2.). But it also provides a composer snippet we will use to modify the composer.json file. 
+Here we apply the third solution. 
+The "t3sitepackage" is a sitepackage created by Sitepackagebuilder (2.). 
+But it also provides a composer snippet which we will use to modify the composer.json file. 
 
 ## Get the sitepackage code
 
@@ -23,6 +25,7 @@ $ cat t3sitepackage1/composer-snippet.txt
 
 Include these four lines of code at the beginning of composer.json. 
 Composer.json then looks like so:
+
 ```
   1 {
   2     "repositories": [
@@ -31,7 +34,9 @@ Composer.json then looks like so:
   5     ],
   6     "name": "typo3/cms-base-distribution",
 ```
-Before it was something like this:
+
+Lines 2-5 are new.
+Remember, before it was something like this:
 ```
   1 {
   2     "name": "typo3/cms-base-distribution",
